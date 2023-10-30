@@ -1,9 +1,9 @@
 # story time Project 
-# the project description: its a website that allow users to read story or write story and only writer can edit or delete his/her story
+# The project description: it's a website that allows users to read a story or write a story and only the writer can edit or delete his/her story
 
 
 
-# 1.Story Time - Website Overview
+# 1. Story Time - Website Overview
 
 Welcome to Story Time! Our website is dedicated to the magic of storytelling and its impact on children's development. Through captivating stories, we aim to foster a love for reading, ignite imagination, and provide valuable life lessons. 
 
@@ -18,7 +18,7 @@ Features:
 Join us at Story Time and embark on a magical journey through the enchanting world of stories. Let the power of imagination and the joy of reading shape the lives of our young readers, one story at a time. Happy reading and storytelling!
 
 # 2. Objectives
-The objective of storytelling website is to create an interactive and engaging platform
+The objective of a storytelling website is to create an interactive and engaging platform
 where users can unleash their creativity through storytelling. We aim to cultivate a
 community of writers and readers, fostering a collaborative environment.
 Our primary goal is to provide a space for users to write and publish their stories. We
@@ -32,7 +32,7 @@ contributed by talented writers from all walks of life.
 
 
 
-# 3. Languages, Database and library used for
+# 3. Languages, Database, and library used for
 building the website:
 3.1 languages:
 1- Hypertext Markup Language (HTML)
@@ -60,7 +60,8 @@ building the website:
 15- "passport": "^0.6.0",
 16- "passport-local": "^1.0.0"
 
-   
+# 4. Screenshot:
+
 <img width="507" alt="image" src="https://github.com/raghadAmangour/Story_time_final/assets/109049172/27191dd8-306d-4be2-8e4c-8d152d8338b7">
 
 <img width="510" alt="image" src="https://github.com/raghadAmangour/Story_time_final/assets/109049172/dcf93e7e-381f-4897-8c5e-623338db83f8">
@@ -70,6 +71,16 @@ building the website:
 <img width="510" alt="image" src="https://github.com/raghadAmangour/Story_time_final/assets/109049172/e9b501dc-3a02-4436-a23d-a0aee0534ca6">
 
 <img width="508" alt="image" src="https://github.com/raghadAmangour/Story_time_final/assets/109049172/41117ec5-cf13-4964-be70-76ca9b0de4ed">
+
+<img width="509" alt="image" src="https://github.com/raghadAmangour/Story_time_final/assets/109049172/84e9f600-d66d-4184-b579-d4b0cde89af5">
+
+<img width="512" alt="image" src="https://github.com/raghadAmangour/Story_time_final/assets/109049172/9d265e7e-1b9c-4ac5-9a2e-4b8bd13afee8">
+
+
+# 5.Tree web
+
+<img width="299" alt="image" src="https://github.com/raghadAmangour/Story_time_final/assets/109049172/ebf41915-e86c-4e6c-97d9-c87f03d4a955">
+
 
 
 
