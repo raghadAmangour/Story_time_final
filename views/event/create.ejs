@@ -1,0 +1,83 @@
+<%- include('../partials/header') -%>
+<%- include('../partials/navbar') -%>
+
+<div class="container">
+    <div class="row mt-4">
+        <div class="col-md-3">
+            <!-- <img src="<%= '/images/' + user.avatar%>" height="150px" width="150px"> -->
+            
+        </div>
+       
+    </div>
+</div>
+
+<div class="container">
+    <div class="row mt-1">
+
+        <div class="col-md-9 offset-md-3">
+            <h1 class="display-4">Write your story:</h1>
+
+            <h6 class="display-5">Preview of Image of story:</h6>
+            
+            <img src="#" alt="" id="imagePreview" height="200px" width="200px" style="display: none;">
+
+            <hr> 
+       
+            <%- include('../partials/flashMessages') -%>      
+          
+            <form action="/events/create" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                  <label for="title">Story title</label>
+                  <input type="text" class="form-control" id="title" name="title" required>
+                </div>
+            
+                <div class="form-group">
+                  <label for="description">Write story</label>
+                  <textarea class="form-control" id="description" name="description" rows="4" required></textarea>
+                </div>
+            
+                <div class="form-group">
+                  <label for="location">Location</label>
+                  <input type="text" class="form-control" id="location" name="location" required>
+                </div>
+            
+                <div class="form-group">
+                  <label for="date">Date</label>
+                  <input type="date" class="form-control" id="date" name="date" required>
+                </div>
+            
+                <div class="form-group">
+                  <label for="avatar">Upload image of story your story</label>
+                  <input type="file" class="form-control-file" id="avatar" name="avatar" onchange="readImageURL(this)" required>
+                  <img id="imagePreview" src="#" alt="Image Preview" style="max-width: 100%; display: none;">
+                </div>
+            
+                <button type="submit" class="btn btn-primary">Submit story</button>
+                <br>
+              </form>
+        </div>
+
+    </div>
+</div>
+
+
+  <script>
+    function readImageURL(input) {
+      if (input.files && input.files[0]) {
+        var reader = new FileReader();
+
+        reader.onload = function (e) {
+          $('#imagePreview')
+            .attr('src', e.target.result)
+            .attr('width', '200px') // Set width to 200px
+            .attr('height', '200px') // Set height to 200px
+            .show();
+        };
+
+        reader.readAsDataURL(input.files[0]);
+      }
+    }
+</script>
+
+    
+<%- include('../partials/footer') -%>

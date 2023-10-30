@@ -1,0 +1,40 @@
+body {
+   background: #F5F5F5; /* Light gray background */
+}
+
+.card-style {
+   background-color: #FFFFFF; /* White background */
+   border-color: #CCCCCC; /* Light gray border */
+   border-style: solid;
+   border-width: 2px;
+   padding: 20px;
+   font-family: "Times New Roman", serif; /* Change font type */
+}
+
+.card-style:hover {
+   border-color: #999999; /* Darker gray border on hover */
+   border-width: 3px;
+}
+
+.button-style {
+   background-color: #337AB7; /* Blue button background */
+   border-width: 2px;
+   border-color: rgba(0, 0, 0, 0.1);
+   color: #FFFFFF; /* White text color for better contrast */
+   padding: 10px 20px;
+   font-family: "Times New Roman", serif; /* Change font type */
+}
+
+.textt {
+   text-align: center;
+   color: #333333; /* Dark gray text color */
+   font-family: "Times New Roman", serif; /* Change font type */
+}
+
+img.centerr {
+   padding-left: 30px;
+}
+.centertext {
+   text-align: center;
+}
+
