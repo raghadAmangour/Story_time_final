@@ -63,6 +63,18 @@ building the website:
    
 <img width="507" alt="image" src="https://github.com/raghadAmangour/Story_time_final/assets/109049172/27191dd8-306d-4be2-8e4c-8d152d8338b7">
 
+<img width="510" alt="image" src="https://github.com/raghadAmangour/Story_time_final/assets/109049172/dcf93e7e-381f-4897-8c5e-623338db83f8">
+
+<img width="511" alt="image" src="https://github.com/raghadAmangour/Story_time_final/assets/109049172/8295a199-172e-44c5-803a-ce508ad2ccdb">
+
+<img width="510" alt="image" src="https://github.com/raghadAmangour/Story_time_final/assets/109049172/e9b501dc-3a02-4436-a23d-a0aee0534ca6">
+
+<img width="508" alt="image" src="https://github.com/raghadAmangour/Story_time_final/assets/109049172/41117ec5-cf13-4964-be70-76ca9b0de4ed">
+
+
+
+
+
 ### Installing
 
 Once you have cloned or downloaded this repo you need to make sure you have Mongo DB installed then
